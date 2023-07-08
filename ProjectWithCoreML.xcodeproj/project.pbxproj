@@ -11,6 +11,7 @@
 		8A8405552A534CA60096D5C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8405542A534CA60096D5C6 /* ContentView.swift */; };
 		8A8405572A534CA80096D5C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A8405562A534CA80096D5C6 /* Assets.xcassets */; };
 		8A84055A2A534CA80096D5C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A8405592A534CA80096D5C6 /* Preview Assets.xcassets */; };
+		8A8405672A5352900096D5C6 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8A8405662A5352900096D5C6 /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8A8405542A534CA60096D5C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A8405562A534CA80096D5C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A8405592A534CA80096D5C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A8405662A5352900096D5C6 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNetV2.mlmodel; path = ../../../Downloads/MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		8A8405512A534CA60096D5C6 /* ProjectWithCoreML */ = {
 			isa = PBXGroup;
 			children = (
+				8A8405662A5352900096D5C6 /* MobileNetV2.mlmodel */,
 				8A8405522A534CA60096D5C6 /* ProjectWithCoreMLApp.swift */,
 				8A8405542A534CA60096D5C6 /* ContentView.swift */,
 				8A8405562A534CA80096D5C6 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A8405672A5352900096D5C6 /* MobileNetV2.mlmodel in Sources */,
 				8A8405552A534CA60096D5C6 /* ContentView.swift in Sources */,
 				8A8405532A534CA60096D5C6 /* ProjectWithCoreMLApp.swift in Sources */,
 			);
